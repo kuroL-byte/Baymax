@@ -121,9 +121,13 @@ if __name__ == '__main__':
         elif 'open youtube' in query:
             speak("Here you go to Youtube\n")
             webbrowser.open("https://www.youtube.com/")
+
+
         elif 'open Instagram' in query:
             speak("Here you go to Instagram\n")
             webbrowser.open("https://www.instagram.com/")
+        
+        
         elif 'open google' in query:
             speak("Here you go to Google\n")
             webbrowser.open("https://www.google.com/")

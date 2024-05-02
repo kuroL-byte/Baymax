@@ -10,7 +10,7 @@ def index():
 @app.route('/start', methods=['POST'])
 def start():
     try:
-        subprocess.Popen(["python", r"C:\Users\Tushar Kulkarni\Desktop\voice assistant gg\Baymax\Baymax\backend\final_backend2.py"])
+        subprocess.Popen(["python", r"C:\Users\Tushar Kulkarni\Desktop\Baymax\backend\final_backend2.py"])
         return 'Backend started!'
     except Exception as e:
         return str(e)
